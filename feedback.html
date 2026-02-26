@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="index.css">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback </title>
+</head>
+<body>
+    <main class="sheet" role="main">
+    <section style="align-items: center; flex:1 1 100%;">
+    <br>
+    <div>
+    <h2>Fill this form to give feedback</h2>
+    <h4>Please give your honest opinion</h4>
+
+    <form action="#" method="post">
+
+        <p>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </p>
+
+        <p>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="example@email.com" required>
+        </p>
+    
+        <p>
+            <strong>Purpose of your message:</strong><br>
+            <input type="radio" id="question" name="purpose" value="question" checked>
+            <label for="question">Question</label><br>
+
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Suggestion</label><br>
+
+            <input type="radio" id="appreciation" name="purpose" value="appreciation">
+            <label for="appreciation">Appreciation / Comment</label><br>
+
+            <input type="radio" id="other" name="purpose" value="other">
+            <label for="other">Other</label>
+        </p>
+        <p>
+            <label for="message">Your Feedback:</label><br>
+            <textarea id="message" name="message" rows="10" cols="60" placeholder="Write your thoughts here..." required></textarea>
+        </p>
+
+        <p>
+            <button type="submit">Send Feedback</button>
+        </p>
+
+    </form>
+
+    <p><em>Note: This is a fishy website. Your information will be sold to the highest bidder.</em></p>
+    <hr>
+    </div>
+    </section>
+    </main>
+    <footer>
+        <h4>HTML Website – Follow me on Instagram <a href="https://www.instagram.com/anas._.rathore" target="_blank">@anas._.rathore</a></h4>
+    </footer>
+
+</body>
+</html>
